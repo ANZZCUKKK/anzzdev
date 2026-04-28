@@ -1,19 +1,9 @@
-// settings/config.js - TEMPLATE KOSONG
-module.exports = {
-    // ============ WAJIB DIISI ============
-    botToken: "8720528010:AAE2OXzsETbc-mUmM0iw6YS1tox17ATrdVc",
-    ownerId: "8769322453",
-    
-    // ============ OPSIONAL ============
-    channelUsn: "",           // Channel untuk notifikasi
-    SMM_API_ID: "",           // API ID Atlantic (opsional)
-    SMM_API_KEY: "",          // API Key Atlantic (opsional)
-    DO_API_KEYS: [],          // Array API Key DigitalOcean (opsional)
-    
-    // ============ SETTING LAIN ============
-    msgMode: "markdown",
-    timeZone: "Asia/Jakarta",
-    depositMin: 1000,
-    depositStep: 1000,
-    depositMax: 5000000
-};
+{
+    "password_hash": "0648f7d4f6e9c5f2a1b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6",
+    "version": "1.0",
+    "maintenance": {
+        "status": false,
+        "start_time": null,
+        "end_time": null
+    }
+}
