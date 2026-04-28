@@ -1,0 +1,25 @@
+module.exports = {
+    // Owner ID
+    ownerId: "8769322453",
+    
+    // Channel username (tanpa @)
+    channelUsn: "testikeciks80",
+    
+    // API Keys
+    SMM_API_ID: "your_api_id",
+    SMM_API_KEY: "your_api_key",
+    SMM_BASE_URL: "https://smmapi.com",
+    
+    // DigitalOcean Keys (array)
+    DO_API_KEYS: ["do_key1", "do_key2", "do_key3"],
+    
+    // Menu effects
+    menuEffects: ["effect1", "effect2"],
+    
+    // Other settings
+    msgMode: "markdown",
+    timeZone: "Asia/Jakarta",
+    depositMin: 1000,
+    depositStep: 1000,
+    depositMax: 5000000
+};
