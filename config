@@ -1,22 +1,16 @@
+// settings/config.js - TEMPLATE KOSONG
 module.exports = {
-    // Owner ID
+    // ============ WAJIB DIISI ============
+    botToken: "8720528010:AAE2OXzsETbc-mUmM0iw6YS1tox17ATrdVc",
     ownerId: "8769322453",
     
-    // Channel username (tanpa @)
-    channelUsn: "testikeciks80",
+    // ============ OPSIONAL ============
+    channelUsn: "",           // Channel untuk notifikasi
+    SMM_API_ID: "",           // API ID Atlantic (opsional)
+    SMM_API_KEY: "",          // API Key Atlantic (opsional)
+    DO_API_KEYS: [],          // Array API Key DigitalOcean (opsional)
     
-    // API Keys
-    SMM_API_ID: "your_api_id",
-    SMM_API_KEY: "your_api_key",
-    SMM_BASE_URL: "https://smmapi.com",
-    
-    // DigitalOcean Keys (array)
-    DO_API_KEYS: ["do_key1", "do_key2", "do_key3"],
-    
-    // Menu effects
-    menuEffects: ["effect1", "effect2"],
-    
-    // Other settings
+    // ============ SETTING LAIN ============
     msgMode: "markdown",
     timeZone: "Asia/Jakarta",
     depositMin: 1000,
